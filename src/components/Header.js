@@ -1,0 +1,46 @@
+import React, {useState} from 'react';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+
+
+
+const Header = () => {
+	const [onHover, setOnHover] = useState('');
+
+
+	const styles = {
+	   opacity: onHover
+	};
+
+	const onButtonHover = () => {
+	   setOnHover('0.6');
+	};
+
+	const noHover = () => {
+	    setOnHover('');
+	};
+		
+	
+	return (
+		<Navbar collapseOnSelect expand="md">
+		  <Container>
+		  <Navbar.Brand href="#home">
+		  	<img src="/images/logo.svg" alt="Shortly-logo" />
+		  </Navbar.Brand>
+		  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+		  <Navbar.Collapse id="responsive-navbar-nav" className="navbarForMobile">
+		    <Nav className="me-auto">
+		      <Nav.Link href="#features">Features</Nav.Link>
+		      <Nav.Link href="#pricing">Pricing</Nav.Link>
+		      <Nav.Link href="#pricing">Resources</Nav.Link>
+		    </Nav>
+		    <Nav className="line">
+		      <Nav.Link href="#deets">Login</Nav.Link>
+		      <Nav.Link href="#memes" className="signup-linkColor" style={styles} onMouseEnter={onButtonHover} onMouseLeave={noHover}>Sign Up</Nav.Link>
+		    </Nav>
+		  </Navbar.Collapse>
+		  </Container>
+		</Navbar>
+	);
+}
+
+export default Header;
