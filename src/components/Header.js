@@ -33,7 +33,8 @@ const Header = () => {
 		      <Nav.Link href="#pricing">Pricing</Nav.Link>
 		      <Nav.Link href="#pricing">Resources</Nav.Link>
 		    </Nav>
-		    <Nav className="line">
+		    <hr />
+		    <Nav className="nav-right-links">
 		      <Nav.Link href="#deets">Login</Nav.Link>
 		      <Nav.Link href="#memes" className="signup-linkColor" style={styles} onMouseEnter={onButtonHover} onMouseLeave={noHover}>Sign Up</Nav.Link>
 		    </Nav>

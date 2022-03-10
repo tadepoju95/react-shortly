@@ -17,6 +17,7 @@ body {
 
 }
 
+
 .signup-linkColor {
 	background-color: hsl(180, 66%, 49%);
 	border-radius: 30px;
@@ -30,12 +31,12 @@ body {
 	color: white !important;
 	width: 150px;
 	text-align: center;
+	margin-top: 14px;
 }
 
 .firstSection {
 	overflow: hidden;
 }
-
 
 .first-section-paragraph {
 	color: grey;
@@ -49,28 +50,34 @@ body {
 	background-color: hsl(0, 0%, 75%);
 }
 
+.navbar {
+	padding-top: 26px !important;
+}
 
-@media only screen and (min-width: 768px) {
+
+
+
+
+@media only screen and (min-width: 992px) {
 	.first-section-container {
 		position: relative;
 	}
 
 	.firstSection-text-image {
-		padding-bottom: 70px;
+		padding-bottom: 200px;
+		padding-top: 138px;
+
 	}
 
 
 	.working-illustration {
 		position:absolute;
-    	left: 63%;
-    	width: 45vw;
-    	margin-top: 135px;
+    	left: 56%;
+    	width: 53vw;
 	}
 
 
-	
 	.firstSection-text-btn {
-		margin-top: 100px;
 	}
 
 	.first-section-header {
@@ -85,8 +92,8 @@ body {
 		font-size: 1.365rem;
 	}
 
-	.line {
-		margin-right: 62px;
+	.nav-right-links {
+		padding-right: 62px;
 	}
 
 	.me-auto {
@@ -117,6 +124,23 @@ body {
 	.first-section-header {
 		margin-right: 10px;
 	}
+
+	.navbarForMobile {
+		background-color: hsl(257, 27%, 26%);
+		text-align: center;
+		margin-top: 25px;
+		padding-top: 25px;
+		padding-bottom: 60px;
+		border-radius: 10px;
+	}
+
+	hr {
+		margin-left: 26px !important;
+		width: 85%;
+		border-top: 1px solid white !important;
+	}
+
+	
 
 }
 
