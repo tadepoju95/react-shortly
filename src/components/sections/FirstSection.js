@@ -19,7 +19,7 @@ const FirstSection = () => {
 
 return (
 	<section
-      className="firstSection text-center text-sm-start pb-5"
+      className="firstSection text-center text-sm-start"
     >
       <div className="container first-section-container">
         <div className="d-flex flex-md-row flex-column-reverse align-items-center firstSection-text-image">

@@ -59,35 +59,49 @@ body::before {
 }
 
 
+.url-input-div {
+	background-color: hsl(257, 27%, 26%);
+	padding: 40px;
+	position: relative;
+	top: 50px;
+	border-radius: 5px;
+}
 
-@media only screen and (min-width: 992px) {
+#button-addon2 {
+	margin-left: 20px;
+	background-color: hsl(180, 66%, 49%);
+	width: 135px;
+	border-radius: 10px;
+	color: white;
+}
+
+
+@media only screen and (min-width: 768px) {
 	.first-section-container {
 		position: relative;
 	}
 
 	.firstSection-text-image {
-		padding-bottom: 200px;
+		padding-bottom: 100px;
 		padding-top: 138px;
 	}
 
 	.working-illustration {
 		position:absolute;
     	left: 56%;
-    	width: 53vw;
+    	width: 45rem;
 	}
 
-	.firstSection-text-btn {
-	}
-
+	
 	.first-section-header {
-		width: 600px;
+		width: 80%;
 		font-size: 5rem;
 		letter-spacing: -4.800px;
 		line-height: 1.1;
 	}
 
 	.first-section-paragraph {
-		width: 600px;
+		width: 55%;
 		font-size: 1.365rem;
 	}
 
@@ -105,11 +119,8 @@ body::before {
 }
 
 
-
 @media only screen and (max-width: 767px) {
-	.firstSection-text-image {
-	}
-
+	
 	.working-illustration {
 		width: 500px;
 		padding-bottom: 30px;
