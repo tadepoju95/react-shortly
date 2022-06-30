@@ -16,10 +16,14 @@ class Form extends React.Component {
 	
 	renderForm() {
 		return (
-			<div class="input-group mb-3">
-	  			<input type="text" class="form-control" placeholder="Shorten a link here..." aria-label="Recipient's username" aria-describedby="button-addon2" />
-	  			<button class="btn" type="button" id="button-addon2" style={{opacity: this.state.onHover}} onMouseEnter={this.onButtonHover} onMouseLeave={this.noHover}>Shorten It!</button>
-			</div>
+			<div className="d-flex flex-md-row flex-column align-items-center">
+				<div className="input-group mb-3">
+		  			<input type="text" className="form-control" placeholder="Shorten a link here..." aria-label="Recipient's username" aria-describedby="button-addon2" />
+				</div>
+				<div>
+	    			<button className="btn" type="button" id="button-addon2" style={{opacity: this.state.onHover}} onMouseEnter={this.onButtonHover} onMouseLeave={this.noHover}>Shorten It!</button>
+	  			</div>
+  			</div>
 		)
 	}
 

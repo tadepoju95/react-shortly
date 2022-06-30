@@ -18,32 +18,24 @@ const FirstSection = () => {
   };
 
 return (
-	<section
-      className="firstSection text-center text-sm-start"
-    >
-      <div className="container first-section-container">
-        <div className="d-flex flex-md-row flex-column-reverse align-items-center firstSection-text-image">
-          <div className="firstSection-text-btn">
-            <h1 className="first-section-header">More than just shorter links</h1>
-            <p className="first-section-paragraph">
-              Build your brand's recognition and get detailed insights on how your links are performing.
-            </p>
-            <button
+	<section className="first_Section text-center">
+      <div className="container d-flex flex-column-reverse">
+        <div className="firstSection-text-button">
+          <h1>More than just shorter links</h1>
+          <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+          <button
               className="btn get-started-btn rounded-pill"
               data-bs-toggle="modal"
               data-bs-target="#enroll" style={styles} onMouseEnter={onButtonHover} onMouseLeave={noHover}>
               Get Started
-            </button>
-          </div>
-          <img
-            className="working-illustration"
-            src="images/illustration-working.svg"
-            alt="working"
-          />
+          </button>
         </div>
+          <img className="working-illustration" src="images/illustration-working.svg" alt="person at computer working"/>
       </div>
-    </section>
+  </section>
 );
+
+
 }
 
 export default FirstSection;
