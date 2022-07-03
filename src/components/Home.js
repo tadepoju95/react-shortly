@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from './Header';
 import FirstSection from './sections/FirstSection';
-import Form from './sections/Form';
+import SecondSection from './sections/SecondSection';
 
 const Home = () => {
 	return (
 		<div> 
 			<Header />
 			<FirstSection />
+			<SecondSection />
 		</div>
 	)
 }

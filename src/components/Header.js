@@ -21,8 +21,8 @@ const Header = () => {
 		
 	
 	return (
-		<Navbar collapseOnSelect expand="md" fixed="top">
-		  <Container>
+		<Navbar collapseOnSelect expand="md" >
+		  <Container className="nav_nav">
 		  <Navbar.Brand href="#home">
 		  	<img src="/images/logo.svg" alt="Shortly-logo" />
 		  </Navbar.Brand>

@@ -18,7 +18,7 @@ const FirstSection = () => {
   };
 
 return (
-	<section className="first_Section text-center">
+	<section className="first_section text-center">
       <div className="container d-flex flex-column-reverse">
         <div className="firstSection-text-button">
           <h1>More than just shorter links</h1>
