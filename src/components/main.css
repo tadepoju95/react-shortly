@@ -29,7 +29,7 @@ img {
 	border-radius: 10px;
 	margin-top: 1.50em;
 	text-align: center;
-	padding: 2.50em 0;
+	padding: 2.20em 0;
 }
 
 .nav-right-links .signup-linkColor {
@@ -54,8 +54,8 @@ hr {
 	color: white;
 }
 
-a {
-	color: white !important;
+#responsive-navbar-nav a {
+	color: white;
 }
 
 
@@ -98,7 +98,7 @@ p {
 	padding: 8em 0;
 }
 
-.input-group {
+#input-group {
 	margin-top: 1em;
 }
 
@@ -110,11 +110,12 @@ p {
 	transform: translateY(70px);
 }
 
-.input-group .form-control {
+#input-group .form-control {
 	width: 85%;
 	margin: 0 auto;
 	padding: .50em 0;
-	border-radius: 5px !important;
+	border-radius: 5px;
+	text-indent: 15px;
 }
 
 #button-addon2 {
