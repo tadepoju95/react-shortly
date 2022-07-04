@@ -3,31 +3,26 @@
 }
 
 body {
-	font-family: 'Poppins', sans-serif !important;
+	font-family: 'Poppins', sans-serif;
 	font-size: 1.125rem;
-	color: white;
+	color: black;
 }
 
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	border: 5px solid red;
 }
 
 img {
 	max-width: 150%;
 }
 
-
 .nav_nav {
 	position:absolute;
 	top:100%;
 	left: 0;
   right: 0;
-  padding-left: inherit;
-  padding-right: inherit;
 }
-
 
 #responsive-navbar-nav {
 	background-color: hsl(257, 27%, 26%);
@@ -37,11 +32,10 @@ img {
 	padding: 2.75em 0;
 }
 
-.signup-linkColor {
+.nav-right-links .signup-linkColor {
 	background-color: hsl(180, 66%, 49%);
 	border-radius: 30px;
-	color: white !important;
-	padding: .70em 7em !important;
+	padding: .70em 5em;
 	margin: 0 auto;
 
 }
@@ -56,10 +50,11 @@ img {
 
 hr {
 	width: 85%;
-	margin-left: 1.35em !important;
+	margin-left: 1.35em;
+	color: white;
 }
 
-a, hr {
+a {
 	color: white !important;
 }
 
@@ -69,8 +64,8 @@ a, hr {
 }
 
 h1 {
-	font-size: 2.45rem !important;
-	font-weight: 700 !important;
+	font-size: 2.45rem;
+	font-weight: 700;
 }
 
 .firstSection-img {
@@ -91,11 +86,11 @@ p {
 }
 
 .get-started-btn {
-	background-color: hsl(180, 66%, 49%) !important;
-	color: white !important;
+	background-color: hsl(180, 66%, 49%);
+	color: white;
 	text-align: center;
 	margin-top: .50em;
-	padding: .40em 1.75em !important;
+	padding: .40em 1.75em;
 }
 
 .second_section {
@@ -115,8 +110,8 @@ p {
 	transform: translateY(70px);
 }
 
-.form-control {
-	width: 85% !important;
+.input-group .form-control {
+	width: 85%;
 	margin: 0 auto;
 	padding: .50em 0;
 	border-radius: 5px !important;
