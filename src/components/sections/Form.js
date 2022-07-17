@@ -26,7 +26,7 @@ class Form extends React.Component {
 	render() {
 		return (
 			<div className="form">
-				<div className="form-input" style={{backgroundImage: 'url("/images/bg-shorten-desktop.svg")', backgroundRepeat: 'no-repeat',   backgroundSize: 'cover'}}>
+				<div className="form-input" style={{backgroundImage: 'url("/images/bg-shorten-mobile.svg")', backgroundRepeat: 'no-repeat',   backgroundSize: 'cover'}}>
 					{this.renderForm()}
 				</div>
 			</div>

@@ -21,6 +21,7 @@ const SecondSection = () => {
 							<p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
 						</div>
 					</div>
+					<div className="vertical-line"></div>
 					<span className="circle"><img className="circle-icon" src="images/icon-detailed-records.svg" alt="recognition icon"/></span>
 					<div className="second_section-header-text-box">
 						<h5>Detailed Records</h5>
