@@ -3,18 +3,22 @@ import React, {useState} from 'react';
 
 const FirstSection = () => {
   const [onHover, setOnHover] = useState('');
+  const [hover, setHover] = useState('');
 
 
   const styles = {
-    opacity: onHover
+    opacity: onHover,
+    color: hover
   };
 
   const onButtonHover = () => {
     setOnHover('0.6');
+    setHover('white')
   };
 
   const noHover = () => {
     setOnHover('');
+    setHover('');
   };
 
 return (

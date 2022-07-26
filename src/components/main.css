@@ -6,15 +6,19 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.125rem;
 	color: black;
+	margin: 0;
 }
 
 .container {
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
 img {
 	max-width: 150%;
+}
+
+.navbar {
+	padding: 1em 0;
 }
 
 .nav_nav {
@@ -171,7 +175,7 @@ p {
 
 .vertical-line {
 	border-left: 6px solid hsl(180, 66%, 49%);
-	padding-top: 40em;
+	padding-top: 42em;
 	position: absolute;
   left: 49%;
   top: 0px;
@@ -187,7 +191,7 @@ p {
 	margin-top: 1.50em;
 }
 
-.second_section-header-text h2{
+.second_section-header-text h2 {
 	font-weight: 700;
 }
 
@@ -195,3 +199,60 @@ p {
 	margin-top: 1em;
 	font-weight: 700;
 }
+
+.third_section {
+	background-color: hsl(257, 27%, 26%);
+	padding: 5em 0;
+}
+
+.third_section h2 {
+	font-size: 1.7rem;
+	font-weight: 700;
+}
+
+.third_section_text_button {
+	margin-top: .20em;
+}
+
+.fourth_section {
+	background-color: hsl(260, 8%, 14%);
+	padding-bottom: 4em;
+}
+
+.fourth_section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.fourth_section h6 {
+	color: white;
+	margin-bottom: 1.5em;
+}
+
+.fourth_section li {
+	font-size: .90rem;
+	margin-bottom: .55em;
+	color: hsl(257, 7%, 63%);
+}
+
+.shortly-logo {
+	filter: brightness(0) invert(1);
+	margin-top: 3em;
+}
+
+.features-list {
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+.text-list {
+	margin-bottom: 2.5em;
+}
+
+.icon-list {
+	margin-right: 1em;
+}
+
+
+
