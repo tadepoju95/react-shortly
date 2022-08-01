@@ -1,25 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 
 const ThirdSection = () => {
-
-const [onHover, setOnHover] = useState('');
-const [hover, setHover] = useState('');
-
-const styles = {
-	opacity: onHover,
-	color: hover
-};
-
-const onButtonHover = () => {
-	setOnHover('0.6');
-	setHover('white');
-};
-
-const noHover = () => {
-	setOnHover('');
-	setHover('');
-};
 
 return (
 	<section className="third_section text-center" style={{backgroundImage: 'url("/images/bg-boost-mobile.svg")', backgroundRepeat: 'no-repeat',   backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -29,7 +11,7 @@ return (
 			    <button
 			        className="btn get-started-btn rounded-pill"
 			        data-bs-toggle="modal"
-			        data-bs-target="#enroll" style={styles} onMouseEnter={onButtonHover} onMouseLeave={noHover}>
+			        data-bs-target="#enroll">
 			            Get Started
 			    </button>
         	</div>

@@ -1,24 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 
 
 const Header = () => {
-	const [onHover, setOnHover] = useState('');
-
-
-	const styles = {
-	   opacity: onHover
-	};
-
-	const onButtonHover = () => {
-	   setOnHover('0.6');
-	};
-
-	const noHover = () => {
-	    setOnHover('');
-	};
-		
 	
 	return (
 		<Navbar collapseOnSelect expand="md" >
@@ -36,7 +21,7 @@ const Header = () => {
 		    <hr />
 		    <Nav className="nav-right-links">
 		      <Nav.Link href="#deets" className="nav-item secondary-nav-item">Login</Nav.Link>
-		      <Nav.Link href="#memes" className="signup-linkColor" style={styles} onMouseEnter={onButtonHover} onMouseLeave={noHover}>Sign Up</Nav.Link>
+		      <Nav.Link href="#memes" className="signup-linkColor">Sign Up</Nav.Link>
 		    </Nav>
 		  </Navbar.Collapse>
 		  </Container>

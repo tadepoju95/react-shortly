@@ -44,6 +44,10 @@ img {
 
 }
 
+.signup-linkColor:hover {
+	opacity: 0.6;
+}
+
 .nav-item {
 	margin-bottom: .80em;
 }
@@ -103,6 +107,11 @@ p {
 	padding: .40em 1.75em;
 }
 
+.get-started-btn:hover {
+	color: white;
+	opacity: 0.6;
+}
+
 .second_section {
 	padding-top: 1em;
 	padding-bottom: 3.50em;
@@ -138,6 +147,10 @@ p {
 	width: 85%;
 	margin: 0 auto;
 	color: white;
+}
+
+#button-addon2:hover {
+	opacity: 0.6;
 }
 
 .flex-column {
@@ -230,10 +243,18 @@ p {
 	margin-bottom: 1.5em;
 }
 
+.fourth_section li:hover {
+	color: hsl(180, 66%, 49%);
+}
+
 .fourth_section li {
 	font-size: .90rem;
 	margin-bottom: .55em;
 	color: hsl(257, 7%, 63%);
+}
+
+.fourth_section a {
+	text-decoration: none;
 }
 
 .shortly-logo {
@@ -252,6 +273,10 @@ p {
 
 .icon-list {
 	margin-right: 1em;
+}
+
+.icon-list:hover {
+	filter: invert(47%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
 }
 
 
