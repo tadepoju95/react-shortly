@@ -4,8 +4,8 @@ import React from 'react';
 const FirstSection = () => {
   
 return (
-	<section className="first_section text-center">
-      <div className="container d-flex flex-column-reverse">
+	<section className="first_section text-center text-md-start">
+      <div className="container d-flex flex-column-reverse flex-md-row first_section_text-image">
         <div className="firstSection-text-button">
           <h1>More than just shorter links</h1>
           <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>

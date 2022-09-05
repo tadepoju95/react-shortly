@@ -25,7 +25,7 @@ img {
 	position:absolute;
 	top:100%;
 	left: 0;
-  right: 0;
+  	right: 0;
 }
 
 #responsive-navbar-nav {
@@ -66,7 +66,6 @@ hr {
 	color: white;
 }
 
-
 .firstSection-text-button {
 	margin-top: 2em;
 }
@@ -80,10 +79,6 @@ hr {
 h1 {
 	font-size: 2.45rem;
 	font-weight: 700;
-}
-
-.firstSection-img {
-	border: 5px red solid;
 }
 
 .first_section {
@@ -104,7 +99,7 @@ p {
 	color: white;
 	text-align: center;
 	margin-top: .85em;
-	padding: .40em 1.75em;
+	padding: .60em 1.75em;
 }
 
 .get-started-btn:hover {
@@ -180,20 +175,20 @@ p {
 
 .circle {
 	background-color: hsl(257, 27%, 26%);
-  border-radius: 50%;
-  display: inline-block;
-  padding: .90em;
-  transform: translateY(35px);
+  	border-radius: 50%;
+  	display: inline-block;
+  	padding: .90em;
+  	transform: translateY(35px);
 }
 
 .vertical-line {
 	border-left: 6px solid hsl(180, 66%, 49%);
 	padding-top: 42em;
 	position: absolute;
-  left: 49%;
-  top: 0px;
-  z-index: -1;
-  margin-top: 25em;
+  	left: 49%;
+  	top: 0px;
+  	z-index: -1;
+  	margin-top: 25em;
 }
 
 .second_section-header-text-box p {
@@ -279,5 +274,84 @@ p {
 	filter: invert(47%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
 }
 
+
+
+
+@media (min-width: 768px) {
+
+	nav {
+		margin-top: -1.5em;
+	}
+
+	.header-logo {
+		margin-right: 0.90em;
+	}
+
+	#responsive-navbar-nav {
+		background-color: initial;
+		margin: 0;
+		padding: 0;
+	}
+
+	#responsive-navbar-nav .nav-item {
+		color: hsl(257, 7%, 63%);
+		font-size: .90rem;
+		margin-right: 0.75em;
+	}
+
+	#responsive-navbar-nav {
+		margin-top: .60em;
+	}
+
+	.secondary-nav-item {
+		margin-right: 1.5em !important;
+	}
+
+	.nav-right-links .signup-linkColor {
+		padding: .50em 1.2em !important;
+		font-size: .90rem;
+		margin-top: .60em;
+		background-color: hsl(180, 66%, 49%);
+		margin-bottom: 1.0em;
+	}
+
+	hr {
+		display: none;
+	}
+
+	h1 {
+		font-size: 4rem;
+		width: 200%;
+	}
+
+	.first_section_text-image {
+		justify-content: space-between;
+		gap: 450px;
+		margin-top: 1em;
+	}
+
+	.firstSection-text-button p {
+		padding: 0;
+		width: 200%;
+	}
+
+	.firstSection-text-button {
+		margin-top: 3em;
+	}
+
+	.get-started-btn {
+		margin-top: 2em;
+	}
+
+	.working-illustration {
+		max-width: 55%;
+	}
+
+	.second_section {
+		margin-top: 7em;
+	}
+
+
+}
 
 
