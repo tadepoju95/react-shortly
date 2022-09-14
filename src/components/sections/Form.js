@@ -5,7 +5,7 @@ class Form extends React.Component {
 
 	renderForm() {
 		return (
-				<div id="input-group" className="mb-3 d-flex flex-column">
+				<div id="input-group" className="mb-3 d-flex flex-column flex-md-row">
 		  			<input type="text" className="form-control" placeholder="Shorten a link here..." aria-label="Recipient's username" aria-describedby="button-addon2" />
 	    			<button className="btn" type="button" id="button-addon2">Shorten It!</button>
 	  			</div>

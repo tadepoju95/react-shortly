@@ -4,9 +4,10 @@ import React from 'react';
 const FourthSection = () => {
 
 	return (
-		<section className="fourth_section text-center">
+		<section className="fourth_section text-center text-md-start">
 			<div className="container fourth_section_container">
 		  		<img src="/images/logo.svg" alt="Shortly logo" className="shortly-logo" />
+		  		<div className="footer">
 		  		<div className="features-list">
 		  			<h6>Features</h6>
 		  			<ul>
@@ -32,11 +33,12 @@ const FourthSection = () => {
 			  			<a href="https://www.facebook.com/"><li>Contact</li></a>
 		  			</ul>
 		  		</div>
-		  		<div>
+		  		<div className="social-icons">
 		  			<a href="https://www.facebook.com/"><img src="/images/icon-facebook.svg" alt="facebook icon" className="icon-list"/></a>
 		  			<a href="https://twitter.com/"><img src="/images/icon-twitter.svg" alt="twitter icon" className="icon-list"/></a>
 		  			<a href="https://www.pinterest.com/"><img src="/images/icon-pinterest.svg" alt="pinterest icon" className="icon-list"/></a>
 		  			<a href="https://www.instagram.com/"><img src="/images/icon-instagram.svg" alt="instagram icon" className="icon-list"/></a>
+		  		</div>
 		  		</div>
 			</div>
 		</section>

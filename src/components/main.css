@@ -181,6 +181,10 @@ p {
   	transform: translateY(35px);
 }
 
+.first-circle, .second-circle {
+	padding: 1.20em;
+}
+
 .vertical-line {
 	border-left: 6px solid hsl(180, 66%, 49%);
 	padding-top: 42em;
@@ -210,7 +214,7 @@ p {
 
 .third_section {
 	background-color: hsl(257, 27%, 26%);
-	padding: 5em 0;
+	padding: 3em 0;
 }
 
 .third_section h2 {
@@ -283,6 +287,10 @@ p {
 		margin-top: -1.5em;
 	}
 
+	.nav_nav {
+		margin-top: 1em;
+	}
+
 	.header-logo {
 		margin-right: 0.90em;
 	}
@@ -300,7 +308,7 @@ p {
 	}
 
 	#responsive-navbar-nav {
-		margin-top: .60em;
+		margin-top: .30em;
 	}
 
 	.secondary-nav-item {
@@ -327,7 +335,7 @@ p {
 	.first_section_text-image {
 		justify-content: space-between;
 		gap: 450px;
-		margin-top: 1em;
+		margin-top: 2.5em;
 	}
 
 	.firstSection-text-button p {
@@ -351,6 +359,84 @@ p {
 		margin-top: 7em;
 	}
 
+	#input-group .form-control {
+		width: 75%;
+		margin-left: 3em;
+	}
+
+	#button-addon2 {
+		width: 15%;
+		transform: translateX(-30px);
+	}
+
+	.form {
+		padding: 1.5em 0;
+		background-image: url("/src/images/bg-shorten-desktop.svg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.second_section-header-text p {
+		width: 48%;
+		margin: 0 auto;
+		padding-top: .55em;
+		line-height: 1.7;
+	}
+
+	.feature-boxes {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+
+	.vertical-line {
+		transform: rotate(90deg);
+		margin-top: 6em;
+	}
+
+	.circle {
+  		margin-right: 12.5em;
+	}
+
+	.third-circle {
+		margin-left: 1.4em;
+	}
+
+	.second_section-header-text-third-box {
+		margin-top: 3em;
+	}
+
+	.third_section {
+		background-image: url("/src/images/bg-boost-desktop.svg") !important;
+	}
+
+	.third_section h2 {
+		font-size: 2.2rem;
+	}
+
+	.footer {
+		display: flex;
+		flex-direction: row;
+		gap: 70px;
+		margin-left: 10em;
+		margin-top: -4.1em;
+	}
+
+	
+	.features-list {
+		margin-left: 9.7em;
+	}
+	
+
+	.text-list, .social-icons {
+		margin-top: 2.5em;
+		margin-right: 2em;
+	}
+
+	.shortly-logo {
+  		margin-top: 3.5em;
+	}
 
 }
 
