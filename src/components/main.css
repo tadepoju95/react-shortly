@@ -278,7 +278,12 @@ p {
 	filter: invert(47%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
 }
 
-
+.validation-text {
+	color: hsl(0, 87%, 67%);
+	text-align: left;
+	font-size: 1rem;
+	text-indent: 50px;
+}
 
 
 @media (min-width: 768px) {
@@ -365,8 +370,8 @@ p {
 	}
 
 	#button-addon2 {
-		width: 15%;
-		transform: translateX(-30px);
+		width: 12%;
+		transform: translateX(-55px);
 	}
 
 	.form {
@@ -387,26 +392,29 @@ p {
 	.feature-boxes {
 		display: flex;
 		flex-direction: row;
-		gap: 30px;
+		gap: 80px;
 	}
 
 	.vertical-line {
 		transform: rotate(90deg);
-		margin-top: 6em;
+		margin-top: 27.4em;
+		margin-left: -10em;
+		padding: 14em;
 	}
 
 	.circle {
-  		margin-right: 12.5em;
+  		margin-right: 10.5em;;
 	}
 
 	.third-circle {
-		margin-left: 1.4em;
+		margin-right: 9.5em;
 	}
 
 	.second_section-header-text-third-box {
 		margin-top: 3em;
 	}
 
+	
 	.third_section {
 		background-image: url("/src/images/bg-boost-desktop.svg") !important;
 	}
@@ -438,6 +446,90 @@ p {
   		margin-top: 3.5em;
 	}
 
+	.second_section-header-text-box {
+		background-color: white;
+		padding-top: 2em;
+		width: 117.5%;
+	}
+
+	.second_section-header-text-box h5 {
+  		font-weight: 700;
+  		text-align: start;
+  		padding: 1.50em;
+  		margin-bottom: -2em;
+	}
+
+	.second_section-header-text-box p {
+  		padding: 1.50em;
+  		text-align: start;
+  		width: 104.2%;
+	}
+
+
 }
 
 
+@media (min-width: 768px) and (max-width: 1199px) {
+
+	.firstSection-text-button {
+  		margin-top: 2em;
+	}
+	
+	h1 {
+  		font-size: 3.2rem;
+	}
+	
+	.working-illustration {
+  		max-width: 75%;
+  		margin-left: -13em;
+	}
+
+	#input-group .form-control {
+		width: 	71%;
+	}
+
+	#button-addon2 {
+  		width: 18%;
+  		transform: translateX(-10px);
+	}
+
+	.second_section-header-text p {
+  		width: 65%;
+  	}
+
+  	.feature-boxes {
+		gap: 20px;
+	}
+
+	.second_section-header-text-box {
+  		width: 100%;
+	}
+
+	.circle {
+		margin-right: 0;
+		transform: translate(-40px, 40px);
+	}
+
+	.third-circle {
+  		transform: translate(-35px, 40px);
+	}
+	
+	.third_section {
+		padding: .85em 0;
+	}
+
+	.footer {
+	  	margin-left: 0; 
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.footer {
+	  	gap: 40px;
+	}
+}
+
+
+
+ 

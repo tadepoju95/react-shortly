@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-
+import shortenLinkReducer from './shortenLinkReducer';
 
 export default combineReducers({
-	replaceMe: () => 'hi there'
+	shortenLink: shortenLinkReducer
 });
