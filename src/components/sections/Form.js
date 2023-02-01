@@ -4,7 +4,8 @@ import { connect } from 'react-redux';
 
 
 class Form extends React.Component {
-	state = { inputValue: "", errorMessage: "", color: ""};
+	state = { inputValue: "", errorMessage: "", color: "", translate: "", validateMd: "",
+			formPadding: "", placeholder: ""};
 
 
 	onSubmit = e => {
@@ -13,17 +14,22 @@ class Form extends React.Component {
 			this.props.shortenLink(this.state.inputValue);
 		} else {
 			this.setState({ errorMessage: "please add a link"});
-			this.setState({ color: "hsl(0, 87%, 67%)"})
+			this.setState({ color: "hsl(0, 87%, 67%)"});
+			this.setState({ translate: "translateY(-1.9em)"});
+			this.setState({ validateMd: "validateMd"});
+			this.setState({ formPadding: "formPadding"});
+			this.setState({ placeholder: "color"});
+
 		}
 		this.setState({ inputValue: ""});
 	};
 
 	renderForm() {
 		return (
-				<div id="input-group" className="mb-3 d-flex flex-column flex-md-row">
-		  			<input type="text" className="form-control" placeholder="Shorten a link here..." 
+				<div id="input-group" className={"mb-3 d-flex flex-column flex-md-row " + this.state.validateMd}>
+		  			<input type="text" className={"form-control " + this.state.placeholder} placeholder="Shorten a link here..." 
 		  			aria-label="Recipient's username" aria-describedby="button-addon2" 
-		  			value={this.state.inputValue} style={{borderColor: this.state.color}}
+		  			value={this.state.inputValue} style={{borderColor: this.state.color, transform: this.state.translate}}
 		  			onChange={(e) => this.setState({inputValue: e.target.value}, () => {console.log(this.state.inputValue)})} />
 	    			<button className="btn" type="submit" id="button-addon2">Shorten It!</button>
 	  			</div>
@@ -34,10 +40,10 @@ class Form extends React.Component {
 	
 	render() {
 		return (
-			<form className="form" onSubmit={this.onSubmit}>
+			<form className={"form " + this.state.formPadding} onSubmit={this.onSubmit}>
 				<div className="form-input" style={{backgroundImage: 'url("/images/bg-shorten-mobile.svg")', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
-					{this.renderForm()}
 					<p className="validation-text">{this.state.errorMessage}</p>
+					{this.renderForm()}
 				</div>
 			</form>
 		)

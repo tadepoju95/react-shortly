@@ -282,8 +282,14 @@ p {
 	color: hsl(0, 87%, 67%);
 	text-align: left;
 	font-size: 1rem;
-	text-indent: 50px;
+	text-indent: 30px;
+	transform: translateY(55px);
 }
+
+.color::placeholder {
+  	color: hsl(0, 87%, 67%);
+}
+
 
 
 @media (min-width: 768px) {
@@ -465,6 +471,22 @@ p {
   		width: 104.2%;
 	}
 
+	#input-group .form-control {
+		transform: translateY(0) !important;
+	}
+
+	.validateMd {
+		margin-top: -2.3em !important;
+	}
+
+	.formPadding {
+		padding: 2.3em 0;
+	}
+
+	.validation-text {	
+		text-indent: 50px;
+		transform: translateY(45px);
+	}
 
 }
 
