@@ -102,9 +102,11 @@ p {
 	padding: .60em 1.75em;
 }
 
-.get-started-btn:hover {
+.btn:hover {
 	color: white;
 	opacity: 0.6;
+	background-color: hsl(180, 66%, 49%);
+	border-color: hsl(180, 66%, 49%);
 }
 
 .second_section {
@@ -403,9 +405,9 @@ p {
 
 	.vertical-line {
 		transform: rotate(90deg);
-		margin-top: 27.4em;
-		margin-left: -10em;
-		padding: 14em;
+		margin-top: 12.35em;
+		padding-bottom: 0;
+		padding-top: 30em;
 	}
 
 	.circle {
@@ -552,6 +554,10 @@ p {
 	}
 }
 
-
+@media only screen and (orientation: landscape) {
+  .validation-text {	
+		text-indent: 60px;
+	}
+}
 
  

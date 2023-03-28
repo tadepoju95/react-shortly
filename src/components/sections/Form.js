@@ -1,5 +1,5 @@
 import React from 'react';
-import{ shortenLink } from '../../actions';
+import{ fetchLink } from '../../actions';
 import { connect } from 'react-redux';
 
 
@@ -11,7 +11,7 @@ class Form extends React.Component {
 	onSubmit = e => {
 		e.preventDefault();
 		if(this.state.inputValue !== '') {
-			this.props.shortenLink(this.state.inputValue);
+			this.props.fetchLink(this.state.inputValue);
 		} else {
 			this.setState({ errorMessage: "please add a link"});
 			this.setState({ color: "hsl(0, 87%, 67%)"});
@@ -51,4 +51,4 @@ class Form extends React.Component {
 
 }
 
-export default connect(null, { shortenLink })(Form);
+export default connect(null, { fetchLink })(Form);
