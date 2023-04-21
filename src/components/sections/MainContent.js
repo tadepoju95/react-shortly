@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const FirstSection = () => {
+const MainContent = () => {
   
 return (
 	<section className="first_section text-center text-md-start">
@@ -24,5 +24,5 @@ return (
 
 }
 
-export default FirstSection;
+export default MainContent;
 

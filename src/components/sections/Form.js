@@ -7,11 +7,17 @@ class Form extends React.Component {
 	state = { inputValue: "", errorMessage: "", color: "", translate: "", validateMd: "",
 			formPadding: "", placeholder: ""};
 
-
+	
 	onSubmit = e => {
 		e.preventDefault();
 		if(this.state.inputValue !== '') {
 			this.props.fetchLink(this.state.inputValue);
+			this.setState({ errorMessage: ""});
+			this.setState({ color: ""});
+			this.setState({ translate: ""});
+			this.setState({ validateMd: ""});
+			this.setState({ formPadding: ""});
+			this.setState({ placeholder: ""});
 		} else {
 			this.setState({ errorMessage: "please add a link"});
 			this.setState({ color: "hsl(0, 87%, 67%)"});
@@ -19,7 +25,6 @@ class Form extends React.Component {
 			this.setState({ validateMd: "validateMd"});
 			this.setState({ formPadding: "formPadding"});
 			this.setState({ placeholder: "color"});
-
 		}
 		this.setState({ inputValue: ""});
 	};
@@ -51,4 +56,6 @@ class Form extends React.Component {
 
 }
 
-export default connect(null, { fetchLink })(Form);
+
+
+export default connect(null, { fetchLink})(Form);

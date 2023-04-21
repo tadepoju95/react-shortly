@@ -556,7 +556,6 @@ p {
 
 @media only screen and (orientation: landscape) {
   .validation-text {	
-		text-indent: 60px;
 	}
 }
 

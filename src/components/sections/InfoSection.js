@@ -1,16 +1,16 @@
 import React from 'react';
 import Form from './Form';
-import ListLinks from './ListLinks'
+import CreateLinks from './CreateLinks'
 
 
-const SecondSection = () => {
+const InfoSection = () => {
 
 	return(
 		<main>
 			<section className="second_section text-center">
 				<div className="container second_section-container">
 					<Form />
-					<ListLinks />
+					<CreateLinks />
 					<div className="second_section-header-text">
 						<h2>Advanced Statistics</h2>
 						<p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
@@ -46,4 +46,4 @@ const SecondSection = () => {
 }
 
 
-export default SecondSection;
+export default InfoSection;

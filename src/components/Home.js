@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from './Header';
-import FirstSection from './sections/FirstSection';
-import SecondSection from './sections/SecondSection';
-import ThirdSection from './sections/ThirdSection';
-import FourthSection from './sections/FourthSection';
+import MainContent from './sections/MainContent';
+import InfoSection from './sections/InfoSection';
+import LinksInfoSection from './sections/LinksInfoSection';
+import Footer from './sections/Footer';
 
 const Home = () => {
 	return (
 		<div> 
 			<Header />
-			<FirstSection />
-			<SecondSection />
-			<ThirdSection />
-			<FourthSection />
+			<MainContent />
+			<InfoSection />
+			<LinksInfoSection />
+			<Footer />
 		</div>
 	)
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const FourthSection = () => {
+const Footer = () => {
 
 	return (
 		<section className="fourth_section text-center text-md-start">
@@ -45,4 +45,4 @@ const FourthSection = () => {
 	)
 }
 
-export default FourthSection;
+export default Footer;

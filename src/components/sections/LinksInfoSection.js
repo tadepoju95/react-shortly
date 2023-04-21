@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const ThirdSection = () => {
+const LinksInfoSection = () => {
 
 return (
 	<section className="third_section text-center" style={{backgroundImage: 'url("/images/bg-boost-mobile.svg")', backgroundRepeat: 'no-repeat',   backgroundSize: 'cover', backgroundPosition: 'center'}}>
@@ -21,4 +21,4 @@ return (
 
 }
 
-export default ThirdSection;
+export default LinksInfoSection;
