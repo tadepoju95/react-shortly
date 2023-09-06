@@ -7,7 +7,16 @@ class Form extends React.Component {
 	state = { inputValue: "", errorMessage: "", color: "", translate: "", validateMd: "",
 			formPadding: "", placeholder: ""};
 
-	
+	onInput = e => {
+		e.preventDefault();
+			this.setState({ errorMessage: ""});
+			this.setState({ color: ""});
+			this.setState({ translate: ""});
+			this.setState({ validateMd: ""});
+			this.setState({ formPadding: ""});
+			this.setState({ placeholder: ""});
+	}
+
 	onSubmit = e => {
 		e.preventDefault();
 		if(this.state.inputValue !== '') {
@@ -45,7 +54,7 @@ class Form extends React.Component {
 	
 	render() {
 		return (
-			<form className={"form " + this.state.formPadding} onSubmit={this.onSubmit}>
+			<form className={"form " + this.state.formPadding} onInput={this.onInput} onSubmit={this.onSubmit}>
 				<div className="form-input" style={{backgroundImage: 'url("/images/bg-shorten-mobile.svg")', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
 					<p className="validation-text">{this.state.errorMessage}</p>
 					{this.renderForm()}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from './Form';
-import CreateLinks from './CreateLinks'
+import CreateLinks from './CreateLinks';
+import ListLinks from './ListLinks';
 
 
 const InfoSection = () => {
@@ -11,6 +12,7 @@ const InfoSection = () => {
 				<div className="container second_section-container">
 					<Form />
 					<CreateLinks />
+					<ListLinks />
 					<div className="second_section-header-text">
 						<h2>Advanced Statistics</h2>
 						<p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
