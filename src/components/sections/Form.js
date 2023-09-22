@@ -56,7 +56,7 @@ class Form extends React.Component {
 	
 	render() {
 		return (
-			<form className={"form d-flex flex-column flex-md-row " + this.state.formPadding} onInput={this.onInput} onSubmit={this.onSubmit}>	
+			<form className={"form d-flex flex-column flex-md-row " + this.state.formPadding} id="form-input" onInput={this.onInput} onSubmit={this.onSubmit}>	
 				{this.renderForm()}
 				<button className={"btn " + this.state.formButton} type="submit" id="button-addon2">Shorten It!</button>
 			</form>
