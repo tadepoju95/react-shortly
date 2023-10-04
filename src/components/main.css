@@ -495,8 +495,8 @@ p {
 	.vertical-line {
 		transform: rotate(90deg);
 		padding-bottom: 0;
-		padding-top: 30em;
-		top: -70px;
+		padding-top: 37em;
+    top: -135px;
 	}
 
 	.circle {
@@ -533,10 +533,13 @@ p {
 		margin-left: 9.7em;
 	}
 	
+	.social-icons {
+  	margin-right: -6.5em;
+	}
 
 	.text-list, .social-icons {
 		margin-top: 2.5em;
-		margin-right: 2em;
+		margin-right: 1em;
 	}
 
 	.shortly-logo {
